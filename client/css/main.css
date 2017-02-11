@@ -1,0 +1,11 @@
+.images {
+    list-style: none;
+    display:inline-block;
+}
+
+
+.modal-content img {
+    height: 100%;
+    width: 100%;
+}
+

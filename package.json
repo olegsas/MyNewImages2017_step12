@@ -1,0 +1,39 @@
+{
+  "name": "images",
+  "version": "1.0.0",
+  "description": "upload pictures",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "cd client && bower install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": ""
+  },
+  "homepage": "",
+  "dependencies": {
+    "angular-file-upload": "^2.4.1",
+    "angular-ui-bootstrap": "^2.5.0",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.16.0",
+    "cloudinary": "^1.6.0",
+    "connect-multiparty": "^2.0.0",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.14.1",
+    "express-session": "^1.15.0",
+    "jsonwebtoken": "^7.2.1",
+    "mongoose": "^4.8.1",
+    "morgan": "^1.7.0",
+    "ng-file-upload": "^12.2.13",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "path": "^0.12.7"
+  }
+}
